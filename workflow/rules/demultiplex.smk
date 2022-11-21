@@ -30,4 +30,4 @@ rule demultiplex:
     conda:
         "../envs/biopython.yaml"
     script:
-        "scripts/demultiplex.py"
+        "../scripts/demultiplex.py"
