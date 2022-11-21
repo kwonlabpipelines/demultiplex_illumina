@@ -1,0 +1,17 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+
+description: snakemake configuration file
+
+type: object
+
+properties:
+  barcodes:
+    type: string
+
+  demultiplex:
+    type: object
+      properties:
+        reverse_complement_i7:
+          type: boolean
+        raw_reads_directory:
+          type: string

@@ -1,0 +1,4 @@
+barcodes: "config/barcodes.csv"
+demultiplex:
+  reverse_complement_i7: false
+  raw_reads_directory: "/n/groups/kwon/joseph/lab_pipelines/test_data"

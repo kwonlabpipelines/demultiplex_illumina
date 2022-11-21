@@ -1,0 +1,3 @@
+NameError in line 8 of /n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/Snakefile:
+name 'validate' is not defined
+  File "/n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/Snakefile", line 8, in <module>

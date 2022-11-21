@@ -1,0 +1,19 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+description: row of the barcodes.csv, representing the barcodes for 
+type: object
+properties:
+  sample:
+    type: string
+    pattern: "^[a-zA-Z_0-9-]+$"
+    description: sample name/id (alphanumeric string, that may additionally contain '_' and '-')
+  i7_barcode:
+    type: string
+    pattern: "^[ACTG]+$"
+    description: barcode present in the first index file
+  i5_barcode:
+    type: string
+    description: barcode present in the second index file (leave empty in case of single barcode)
+
+required:
+  - sample
+  - i7_barcode

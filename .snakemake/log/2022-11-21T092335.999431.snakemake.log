@@ -1,0 +1,4 @@
+KeyError in line 13 of /n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/rules/demultiplex.smk:
+'raw_reads_directory'
+  File "/n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/Snakefile", line 9, in <module>
+  File "/n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/rules/demultiplex.smk", line 13, in <module>

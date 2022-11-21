@@ -1,0 +1,4 @@
+WorkflowError in line 9 of /n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/Snakefile:
+Failed to open source file /n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/../schemas/config.schema.yaml
+FileNotFoundError: [Errno 2] No such file or directory: '/n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/../schemas/config.schema.yaml'
+  File "/n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/Snakefile", line 9, in <module>

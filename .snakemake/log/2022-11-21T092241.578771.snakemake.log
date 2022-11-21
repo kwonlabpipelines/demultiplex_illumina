@@ -1,0 +1,4 @@
+FileNotFoundError in line 3 of /n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/rules/demultiplex.smk:
+[Errno 2] No such file or directory: './input/barcodes.csv'
+  File "/n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/Snakefile", line 9, in <module>
+  File "/n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/rules/demultiplex.smk", line 3, in <module>
