@@ -1,4 +1,0 @@
-NameError in line 4 of /n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/rules/demultiplex.smk:
-name 'csv' is not defined
-  File "/n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/Snakefile", line 9, in <module>
-  File "/n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/rules/demultiplex.smk", line 4, in <module>

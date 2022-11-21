@@ -1,4 +1,0 @@
-Building DAG of jobs...
-WorkflowError:
-Failed to open source file /n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/rules/envs/biopython.yaml
-FileNotFoundError: [Errno 2] No such file or directory: '/n/groups/kwon/joseph/lab_pipelines/preprocess_illumina/workflow/rules/envs/biopython.yaml'
