@@ -11,5 +11,5 @@ include: "rules/qc.smk"
 
 rule target:
     input:
-        "output/qc/multiqc.html",
+        expand("output/qc/fastqc/{sample}.{direction}.html", sample=ALL_SAMPLES, direction = ["f", "r"])
 

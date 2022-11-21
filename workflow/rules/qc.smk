@@ -11,15 +11,3 @@ rule fastqc:
     threads: 1
     wrapper:
         "0.78.0/bio/fastqc"
-
-rule multiqc:
-    input:
-        expand("output/qc/fastqc/{sample}.{direction}.html", sample=ALL_SAMPLES, direction = ["f", "r"])
-    output:
-        "output/qc/multiqc.html"
-    params:
-        ""  # Optional: extra parameters for multiqc.
-    log:
-        "logs/multiqc.log"
-    wrapper:
-        "1.13.0/bio/multiqc"
