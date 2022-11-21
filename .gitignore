@@ -19,3 +19,4 @@
 .test/.snakemake
 .test/results
 .DS_Store
+.snakemake
